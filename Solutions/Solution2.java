@@ -48,7 +48,13 @@ public class Solution2 {
         } else {
             System.out.println("No");
             for (String s : errorCodes) {
-                System.out.print(s + " ");
+                for (int i = 0; i < errorCodes.size(); i++) {
+                    if (i == errorCodes.size() - 1) {
+                        System.out.print(s);
+                        break;
+                    }
+                    System.out.print(s + " ");
+                }
             }
         }
         System.out.println();
