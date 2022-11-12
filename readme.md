@@ -38,7 +38,7 @@ Each folder contains a question written in a `.md` file. You are expected to cre
 File name: solution.py
 
 ### 2.2 Java
-File name: Solution.java
+File name: Solution1.java
 
 ### 2.3 Node.js
 File name: solution.js
